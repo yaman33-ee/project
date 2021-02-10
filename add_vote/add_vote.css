@@ -1,0 +1,142 @@
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: 10 auto;
+}
+.question p {
+  color: black;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.question {
+  width: 500px;
+  border: 2px sloid black;
+  border-radius: 10px;
+  background-color: pink;
+  margin-top: 10px;
+  height: 100px;
+}
+.question textarea {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 800;
+  box-shadow: 0 20px 5px rgba(59, 43, 91, 0.7);
+}
+.question textarea:focus {
+  background-color: lightgray;
+  outline: 0;
+}
+.question-desc
+{
+  margin-top:60px;
+}
+.image-picker
+{
+  width:100%;
+  margin-top:10px;
+  background-color: lightpink;
+  border-radius:10px;
+  
+}
+.element {
+  display: flex;
+  align-items: center;
+  padding:20px;
+  text-align:center;
+  justify-content:space-around;
+}
+i.fa-camera {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+i:hover {
+  opacity: 0.6;
+}
+.element input {
+  display: none;
+}
+
+.options {
+  width: auto;
+  border: 2px sloid black;
+  border-radius: 10px;
+  background-color: pink;
+  margin-top: 10px;
+  height: auto;
+}
+
+.options p {
+  color: black;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.two-options {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+label {
+  font-size: 24px;
+  padding: 10px;
+}
+
+
+.submit-button {
+  display: block;
+  margin: 40px auto;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 0;
+  border-radius: 6px;
+}
+
+
+@media only screen and (max-width: 1300px) {
+ form
+ {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+ }
+ .question 
+ {  
+   text-align: center;
+   height: 100%;
+   width:100%;
+  
+ }
+ .options
+ {
+  text-align: center;
+  height: 100%;
+  width:100%;
+ }
+ .section-options {
+  display: flex;
+  width:auto;
+}
+.section-options  img{
+  width:100%;
+}
+  
+}

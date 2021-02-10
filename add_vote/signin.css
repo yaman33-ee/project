@@ -1,0 +1,132 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+.signin
+{ 
+
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+  margin: 0 auto ;
+  margin-top:20px;
+ 
+  min-height: auto;
+  width:60%;
+  border-radius:10%;
+  background-color: whitesmoke;
+  box-shadow: 0 20px 50px rgba(59, 43, 91, 0.7);
+}
+
+.id
+{
+  margin-top:40px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+}
+.id-componenets
+{
+  display:flex;
+  margin-left:60px;
+}
+
+.id input
+{
+ margin-left:20px;
+  width:70%;
+}
+
+.title
+{
+  background-color: rebeccapurple;
+  width:100%;
+  text-align: center;
+  color:white;
+  font-family:'Amiri','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:1.4rem;
+  font-weight: 700;
+}
+.section-title
+{
+text-align: center;
+color:black;
+font-size:1.6rem;
+font-weight: 700;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.section-options
+{
+  display:flex;
+}
+
+
+
+
+label {
+  font-size: 24px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.section {
+  display: block;
+}
+.section-options {
+  display: flex;
+  margin-top: 5px;
+}
+.section [type="radio"] {
+  position: absolute;
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+}
+
+/* IMAGE STYLES */
+[type="radio"] + img {
+  cursor: pointer;
+  width: 200px;
+  height: 150px;
+}
+
+.section-options label:hover,
+.section-options label:focus,
+.section-options label:active {
+  border: 0.3px solid darkblue;
+  border-radius: 2px;
+}
+
+[type="submit"] {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  background-color: rebeccapurple;
+  border: 0;
+}
+
+.signin-submit-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 0;
+  border-radius: 6px;
+}
+.id-stats
+{
+  display:none;
+  opacity:0;
+}
+
+.warnning
+{
+display:none;
+}

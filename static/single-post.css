@@ -1,0 +1,64 @@
+.NavBar
+{
+  margin-top:2px;
+  height: 110px;
+}
+
+.single-post
+{
+  margin-right:40px;
+  padding:50px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: wavy;
+  font-size:2rem;
+  width:auto;
+  height:auto;
+
+}
+a:hover{
+  text-decoration: none;
+  border-bottom: 1px slod wheat;
+}
+
+.post
+{
+  
+  border:6px dotted lightblue; 
+  width:50%; 
+  height:auto;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 20px;
+}
+
+p{
+  font-size:30px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif; font-weight:700; 
+  margin-right:20px;
+
+}
+.progress
+{
+  padding:2px;
+  margin:0 auto;
+  width:80%;
+  height:40px;
+  margin-bottom:20px;
+
+}
+@media only screen and (max-width: 800px) {
+  
+  .post{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:20px;
+    width:auto;
+    height:auto;
+  }
+  
+ 
+}

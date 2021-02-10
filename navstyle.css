@@ -1,0 +1,16 @@
+.NavBar {
+  background: url("bg.jpg");
+  width: 100%;
+  height: 120px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Droid Arabic Kufi", Arial;
+  margin-top: -40px;
+  padding: 4px;
+}
+.nav-img {
+  border-radius: 20%;
+  height: 40px;
+}

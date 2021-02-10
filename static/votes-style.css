@@ -1,0 +1,60 @@
+
+.votes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 10px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.poll {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: right;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 80%;
+  display: block;
+  line-height: 20px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  line-height: 10px;
+  box-shadow: 0 2px 5px rgba(59, 43, 91, 0.7);
+}
+.poll:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s linear;
+}
+
+.choice {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.vote:focus {
+  outline: 0;
+}
+.vote:active
+{
+  outline:0;
+}
+
+a:hover{
+  text-decoration: none;
+  border-bottom: 1px slod wheat;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .votes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 10px auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+}
